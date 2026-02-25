@@ -2,17 +2,17 @@ const proyectos = [
     {
         titulo: "Portafolio Personal",
         descripcion: "Un sitio web moderno construido con HTML5 y Tailwind CSS para mostrar mi marca personal.",
-        imagen: "../images/project.png"
+        imagen: "/images/project.png"
     },
     {
         titulo: "Social Link Profile",
         descripcion: "Página de aterrizaje para centralizar redes sociales con un diseño limpio y minimalista.",
-        imagen: "../images/social_link.png"
+        imagen: "/images/social_link.png"
     },
     {
         titulo: "Blog Preview Card",
         descripcion: "Componente responsivo diseñado siguiendo estándares de UI/UX modernos.",
-        imagen: "../images/blog_preview.png"
+        imagen: "/images/blog_preview.png"
     }
 ];
 
