@@ -22,7 +22,7 @@ function cargarProyectos() {
 
     proyectos.forEach(proy => {
         const article = document.createElement('article');
-        // Agregamos clases de Tailwind para el diseño y el efecto Hover (Punto 4 de la imagen)
+        // Agregamos clases de Tailwind para el diseño y el efecto Hover
         article.className = "bg-slate-900 border border-white/10 rounded-3xl overflow-hidden group hover:border-amber-200 transition-all duration-300 transform hover:-translate-y-2";
         
         article.innerHTML = `
