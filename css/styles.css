@@ -1,0 +1,18 @@
+
+@import "tailwindcss";
+
+@theme {
+    --color-dark: #0D1117;
+    --color-light: #FFFFFF;
+    --color-highlight: #E3FF6A;
+    --color-neon-green: #A4FF7A;
+    --color-deep-blue: #1E293B;
+    --color-soft-gray: #8892B0;
+    --brand-dark: #0B1120;      
+    --brand-card: #161F32;      
+    --brand-lime: #D4F250;     
+    --brand-gray: #B0B5C0;
+    
+
+  --background-image-gradient-main: linear-gradient(180deg, #1E293B 0%, #0D1117 100%);
+}

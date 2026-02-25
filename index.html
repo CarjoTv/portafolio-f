@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Anthony Olguin - FrontEnd</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+   <script type="module" src="../js/habilidades.js"></script>
+    <script type="module" src="../js/envio.js"></script>
+  </head>
+  <body class="bg-[#0e1219] overflow-x-hidden">
+    <header class="relative z-50">
+      <div
+        class="fixed top-0 right-0 left-0 bg-[#18202e]/90 flex items-center justify-between px-6 md:px-12 py-4 text-white z-50"
+      >
+        <div class="shrink-0">
+          <img src="./images/logo.png" alt="Logo" class="w-12 h-12" />
+        </div>
+
+        <nav class="flex items-center justify-end flex-1 gap-4">
+          <button
+            id="menu-btn"
+            class="lg:hidden text-white border border-white px-2 py-1 rounded"
+          >
+            MENÚ
+          </button>
+
+          <ul id="menu-list" class="hidden lg:flex flex-row gap-8 font-medium">
+            <li>
+              <a href="#inicio" class="hover:text-amber-200 transition"
+                >INICIO</a
+              >
+            </li>
+            <li>
+              <a href="#habilidades" class="hover:text-amber-200 transition"
+                >HABILIDADES</a
+              >
+            </li>
+            <li>
+              <a href="#proyectos" class="hover:text-amber-200 transition"
+                >PROYECTOS</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="hover:text-amber-200 transition"
+                >SOBRE MÍ</a
+              >
+            </li>
+          </ul>
+
+          <div class="hidden sm:flex shrink-0">
+            <a
+              href="#contacto"
+              class="border border-amber-50 rounded-3xl p-1 pl-4 flex items-center cursor-pointer hover:bg-white/10 group"
+            >
+              <span class="text-sm font-bold mr-2">CONTACTO</span>
+              <div
+                class="rounded-full bg-[#ddeb9a] w-8 h-8 flex items-center justify-center group-hover:rotate-45 transition-transform"
+              >
+                <img src="./images/arrow_finally.png" class="w-4 h-4" />
+              </div>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      class="relative bg-gradient-main min-h-screen flex flex-col items-center pt-44 overflow-hidden"
+      id="inicio"
+    >
+      <div class="text-center z-10 mb-8 px-4">
+        <h1 class="text-7xl text-white font-bold leading-tight">
+          Yo soy <span class="text-amber-200">Anthony Olguin</span>
+        </h1>
+        <p class="text-5xl text-white mt-4 font-light">
+          <span
+            class="border-2 border-gray-500 rounded-full px-6 py-1 inline-block"
+            >Front End</span
+          >
+          Developer
+        </p>
+      </div>
+
+      <div class="relative w-full flex justify-center items-end mt-auto px-4">
+        <div
+          class="absolute left-10 bottom-1/4 hidden xl:block bg-slate-900 p-6 rounded-2xl border border-white/10 w-80 -rotate-6 shadow-2xl z-20"
+        >
+          <p class="text-amber-200 font-bold mb-2 flex items-center gap-2">
+            Reseña de mi Mama ❤️
+          </p>
+          <p class="text-gray-300 text-sm leading-relaxed italic">
+            "Increíble trabajo en el desarrollo de nuestra app de la casa. La
+            atención al detalle es excepcional."
+          </p>
+        </div>
+
+        <div class="relative z-10 flex justify-center translate-y-4">
+          <img
+            src="./images/tony_foto.png"
+            alt="Anthony Olguin"
+            class="w-full max-w-lg object-contain"
+          />
+
+          <div class="absolute bottom-20 left-1/2 -translate-x-1/2 z-30">
+            <a
+              href="#proyectos"
+              class="bg-[#D4FF59] text-black px-8 py-3 rounded-full font-black uppercase text-xs shadow-lg"
+            >
+              Mis Proyectos
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="absolute right-10 bottom-1/4 hidden xl:block bg-slate-900 p-6 rounded-2xl border border-white/10 w-100 rotate-3 shadow-2xl z-20 text-white"
+        >
+          <p class="text-xs font-black mb-6 text-gray-400 uppercase">
+            Mi Experiencia
+          </p>
+          <div class="space-y-5">
+            <div>
+              <div class="flex justify-between text-[10px] font-bold mb-2">
+                <span>BACKEND</span><span class="text-amber-200">45%</span>
+              </div>
+              <div
+                class="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden"
+              >
+                <div
+                  class="bg-amber-200 h-full rounded-full"
+                  style="width: 45%"
+                ></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-[10px] font-bold mb-2">
+                <span>CMS</span><span class="text-amber-200">25%</span>
+              </div>
+              <div
+                class="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden"
+              >
+                <div
+                  class="bg-amber-200 h-full rounded-full"
+                  style="width: 25%"
+                ></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-[10px] font-bold mb-2">
+                <span>FRONTEND</span><span class="text-amber-200">40%</span>
+              </div>
+              <div
+                class="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden"
+              >
+                <div
+                  class="bg-amber-200 h-full rounded-full"
+                  style="width: 40%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative min-h-screen flex flex-col items-center pt-32 overflow-hidden text-white/90"
+      id="about"
+    >
+      <h2 class="text-7xl text-yellow-200 mb-12">¿QUIÉN SOY?</h2>
+
+      <div
+        class="relative w-full max-w-6xl mx-auto min-h-150 flex justify-center items-center"
+      >
+        <div
+          class="relative z-30 w-full max-w-2xl text-center text-white/80 text-2xl px-6"
+        >
+          <div class="space-y-6">
+            <p>
+              Soy un <strong>desarrollador Front-End</strong> en constante
+              crecimiento, buscando abrirme paso en el mundo laboral. Siempre he
+              sentido que la tecnología es parte de mi ADN y, tras mucho tiempo
+              de fascinación, finalmente he decidido dar mi propio "salto de fe"
+              hacia el desarrollo profesional.
+            </p>
+            <p>
+              Mi conexión con el código nació de mi amor por los videojuegos y
+              la cultura geek. He trabajado en proyectos pequeños que me han
+              permitido pulir mis habilidades. Soy fan de los riffs de
+              <strong>A7X</strong>, la energía de la electrónica y esas
+              atmósferas oscuras de sintetizadores al estilo
+              <em>Hotline Miami</em>.
+            </p>
+            <p>
+              En mis ratos libres, me verás en <strong>TF2</strong> o
+              <strong>Warframe</strong>. Si quieres armar una partida o
+              simplemente conectar, agrégame en Steam como:
+              <a
+                href="https://steamcommunity.com/id/carjotv/"
+                class="text-amber-200 font-bold hover:underline transition"
+                >CarjoTv</a
+              >.
+            </p>
+          </div>
+
+          <div class="mt-10">
+            <a
+              href="#proyectos"
+              class="inline-block bg-[#D4FF59] text-black px-8 py-3 rounded-full font-black uppercase text-xs shadow-lg hover:scale-105 transition-transform"
+            >
+              Mostrar mis Proyectos
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="absolute -left-10 top-0 bg-slate-900 p-4 rounded-2xl border border-white/10 w-48 -rotate-12 shadow-2xl z-10 opacity-60 xl:opacity-100 hidden md:block"
+        >
+          <img
+            src="./images/slenderman.jpg"
+            alt="Tarjeta 1"
+            class="rounded-lg w-full h-auto"
+          />
+        </div>
+
+        <div
+          class="absolute left-10 bottom-0 bg-slate-900 p-4 rounded-2xl border border-white/10 w-52 rotate-6 shadow-2xl z-10 opacity-60 xl:opacity-100 hidden md:block"
+        >
+          <img
+            src="./images/montaña.jpg"
+            alt="Tarjeta 2"
+            class="rounded-lg w-full h-auto"
+          />
+        </div>
+
+        <div
+          class="absolute -right-10 top-1/4 bg-slate-900 p-4 rounded-2xl border border-white/10 w-48 rotate-12 shadow-2xl z-10 opacity-60 xl:opacity-100 hidden md:block"
+        >
+          <img
+            src="./images/lentes.jpg"
+            alt="Tarjeta 3"
+            class="rounded-lg w-full h-auto"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative flex flex-col items-center overflow-hidden pt-30"
+      id="habilidades"
+    >
+      <div class="max-w-7xl w-full px-6">
+        <h2
+          class="text-amber-200 text-5xl font-bold text-center mb-16 tracking-widest uppercase"
+        >
+          Mis Habilidades
+        </h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div
+            class="lg:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-4"
+            id="grid-habilidades"
+          ></div>
+
+          <div
+            class="bg-slate-900/80 border border-white/10 rounded-2xl p-10 flex flex-col items-center justify-center text-center shadow-2xl"
+          >
+            <span class="text-7xl font-bold text-white mb-2">2</span>
+            <p class="text-2xl text-white font-medium leading-tight mb-8">
+              Años<br />De<br />Experiencia
+            </p>
+            <a
+              href="#"
+              class="bg-[#D4FF59] text-black font-bold py-3 px-8 rounded-full hover:bg-lime-400 transition-colors uppercase"
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative flex flex-col items-center overflow-hidden mt-10 py-10"
+    >
+      <div class="max-w-7xl w-full px-6">
+        <div
+          class="bg-slate-900/60 border border-white/10 rounded-2xl p-8 shadow-xl"
+        >
+          <div class="text-center mb-8">
+            <h3 class="text-amber-200 text-xl font-bold uppercase">
+              Additional Skills
+            </h3>
+          </div>
+
+          <div class="flex flex-wrap justify-center items-center gap-12">
+            <img
+              src="./icons/arduino-icon.svg"
+              alt="arduino"
+              class="h-10 w-auto opacity-80 hover:opacity-100"
+            />
+            <img
+              src="./icons/c-sharp-programming-language-icon.svg"
+              alt="Axios"
+              class="h-10 w-auto opacity-80 hover:opacity-100"
+            />
+            <img
+              src="./icons/node-js-icon.svg"
+              alt="Node.js"
+              class="h-10 w-auto opacity-80 hover:opacity-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-20 overflow-hidden pt-42" id="proyectos">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+      >
+        <div class="flex flex-col space-y-12">
+          <h2 class="text-white text-5xl font-bold leading-tight">
+            TRABAJOS <br />
+            MAS IMPORTANTES <br />
+            QUE HE HECHO
+          </h2>
+
+          <div class="flex">
+            <a
+              href="../pages/about.html"
+              class="bg-[#D4FF59] text-black font-bold py-3 px-10 rounded-full text-sm uppercase"
+            >
+              MOSTRAR MIS TRABAJOS
+            </a>
+          </div>
+        </div>
+
+        <div class="flex items-end gap-4 h-125">
+          <div class="relative flex-2 h-full overflow-hidden">
+            <img
+              src="./images/project.png"
+              alt="Proyecto"
+              class="w-full h-full object-cover rounded-4xl"
+            />
+            <div class="absolute bottom-8 left-8 text-white">
+              <h3 class="font-bold text-xl">Portafolio Personal</h3>
+            </div>
+          </div>
+
+          <div class="relative flex-1 h-[90%] overflow-hidden">
+            <img
+              src="./images/social_link.png"
+              alt="Proyecto 2"
+              class="w-full h-full object-cover opacity-60 rounded-3xl"
+            />
+          </div>
+          <div class="relative flex-1 h-[90%] overflow-hidden">
+            <img
+              src="./images/blog_preview.png"
+              alt="Proyecto 3"
+              class="w-full h-full object-cover opacity-60 rounded-3xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-[#0f172a]" id="contacto">
+      <div class="bg-white max-w-lg mx-auto p-8 rounded-3xl shadow-lg">
+        <h2 class="text-center text-2xl font-bold mb-8 text-black">
+          CONTÁCTAME
+        </h2>
+
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xaqdadkp"
+          method="POST"
+          class="space-y-4"
+        >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="TU NOMBRE"
+            required
+            class="w-full bg-gray-200 p-4 rounded-xl text-sm outline-none text-black"
+          />
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="CORREO ELECTRÓNICO"
+            required
+            class="w-full bg-gray-200 p-4 rounded-xl text-sm outline-none text-black"
+          />
+
+          <textarea
+            name="message"
+            id="message"
+            placeholder="MENSAJE"
+            rows="4"
+            required
+            class="w-full bg-gray-200 p-4 rounded-xl text-sm outline-none resize-none text-black"
+          ></textarea>
+
+          <button
+            type="submit"
+            class="w-full bg-[#D4FF59] text-black font-bold py-4 rounded-xl hover:opacity-90 transition"
+          >
+            ENVIAR
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
