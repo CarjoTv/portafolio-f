@@ -1,14 +1,14 @@
 
 // Array de habilidades con sus respectivos íconos
 const habilidades = [
-    { nombre: "HTML5", icono: "../icons/html-icon.svg" },
-    { nombre: "Tailwind CSS", icono: "../icons/tailwind-css-icon.svg" },
-    { nombre: "JavaScript", icono: "../icons/javascript-programming-language-icon.svg" },
-    { nombre: "Java", icono: "../icons/java-programming-language-icon.svg" },
-    { nombre: "Python", icono: "../icons/python-programming-language-icon.svg" },
-    { nombre: "PHP", icono: "../icons/php-programming-language-icon.svg" },
-    { nombre: "C++", icono: "../icons/c-plus-plus-programming-language-icon.svg" },
-    { nombre: "Data Base" , icono: "../icons/database-icon.svg" },
+    { nombre: "HTML5", icono: "./icons/html-icon.svg" },
+    { nombre: "Tailwind CSS", icono: "./icons/tailwind-css-icon.svg" },
+    { nombre: "JavaScript", icono: "./icons/javascript-programming-language-icon.svg" },
+    { nombre: "Java", icono: "./icons/java-programming-language-icon.svg" },
+    { nombre: "Python", icono: "./icons/python-programming-language-icon.svg" },
+    { nombre: "PHP", icono: "./icons/php-programming-language-icon.svg" },
+    { nombre: "C++", icono: "./icons/c-plus-plus-programming-language-icon.svg" },
+    { nombre: "Data Base" , icono: "./icons/database-icon.svg" },
 ];
 // Función para cargar las habilidades dinámicamente
 function cargarHabilidades() {
